@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - HotBeans</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul class="sidebar">
+             <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill="#e3e3e3"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="ourteam.html">Our team</a></li>
+            <li><a href="joinus.html">Join us</a></li>
+            <li><a href="courses.html">Courses</a></li>
+            <li><a href="contactus.html">Contact</a></li>
+        </ul>
+        <ul>
+            
+            <li class="logo-item">
+                <a href="index.html" class="brand">
+                    <img src="logo.png" class="nav-logo" alt="HotBeans logo">
+                    <span class="logo-text">HotBeans</span>
+                </a>
+            </li>
+            <li class="hideOnMobile"><a href="index.html">Home</a></li>
+            <li class="hideOnMobile"><a href="about.html">About</a></li>
+            <li class="hideOnMobile"><a href="ourteam.html">Our team</a></li>
+            <li class="hideOnMobile"><a href="joinus.html">Join us</a></li>
+            <li class="hideOnMobile"><a href="courses.html">Courses</a></li>
+            <li class="hideOnMobile"><a href="contactus.html">Contact</a></li>
+            <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill="#e3e3e3"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+        </ul>
+    </nav>
+    <section class="sub-header">
+        <h1>About Us</h1>
+    <section class="about-us">
+<div class="row">
+<div class="about-col">
+    <h1>We are the Worlds Largest Web Development company!</h1>
+    <p>Welcome to HotBeans Web, a dynamic and forward-thinking web development company dedicated to creating modern, responsive, and user-focused digital solutions. Founded on innovation and teamwork, HotBeans Web has grown into a vibrant environment where creativity, collaboration, and continuous learning fuel everything we do.
+
+At HotBeans Web, we specialise in designing and developing high-quality websites and applications for clients across a wide range of industries. <br><br>Our team combines technical expertise with a passion for problem-solving, ensuring that every project we take on meets the highest standards of performance, accessibility, and visual appeal.
+
+What truly sets us apart is our commitment to nurturing new talent. We believe that the future of web development lies in supporting the next generation of developers, which is why we provide comprehensive training, hands-on experience, and growth opportunities for those beginning their careers in tech.
+
+Whether you’re an aspiring developer looking to jump-start your journey or a business seeking reliable digital solutions, HotBeans Web is dedicated to helping you achieve success. <br><br>Our mission is simple: to create exceptional digital experiences while empowering the developers of tomorrow.
+
+</p>
+    <a href="joinus.html" class="hero-button">Join Now</a>
+</div>
+<div class="about-col">
+    <img src="aboutus.jpg">
+</div>
+</div>
+    </section>
+    
+    
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <!--Javascript for sidebar-->  
+  <script>
+    function showSidebar(){
+        const sidebar = document.querySelector('.sidebar')
+        sidebar.style.display = 'flex'
+    }
+    function hideSidebar(){
+        const sidebar = document.querySelector('.sidebar')
+        sidebar.style.display = 'none'
+    }
+  </script>
+  <footer>
+    <div class="footer-container">
+        <div class="footer-section">
+            <h3>HotBeans</h3>
+            <p>Brewing fresh ideas, one project at a time.</p>
+        </div>
+
+        <div class="footer-section">
+            <h4>Quick Links</h4>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="ourteam.html">Our Team</a></li>
+                <li><a href="joinus.html">Join Us</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="contactus.html">Contact</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-section">
+            <h4>Contact</h4>
+            <p>Email: hotbeans@gmail.com</p>
+            <p>Phone: 020 8772 6000</p>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <p>© 2025 HotBeans Web. All rights reserved.</p>
+    </div>
+</footer>
+
+</body>
+</html>
